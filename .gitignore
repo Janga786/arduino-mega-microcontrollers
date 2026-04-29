@@ -1,0 +1,43 @@
+# ---- Arduino build artefacts -------------------------------------------
+*.hex
+*.elf
+*.eep
+*.bin
+build/
+arduino_build_*/
+
+# ---- Eagle CAD backups -------------------------------------------------
+*.s#?       # schematic backups
+*.b#?       # board backups
+*.l#?       # library backups
+*.bak
+*.lck
+
+# ---- macOS / Windows / Linux -------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+
+# ---- Office lock files -------------------------------------------------
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ---- Editors / IDEs ----------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- Python (in case any helper scripts are added later) --------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- Project-specific --------------------------------------------------
+.claude/
+*.log
