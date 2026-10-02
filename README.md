@@ -55,7 +55,7 @@ The projects span four categories:
 
 ### 1. `custom-mega-pcb/` — Skyboard, an Arduino-Mega-class development board
 
-A 4-layer Eagle CAD design of an Arduino-Mega-2560-class board:
+A 2-layer Eagle CAD design of an Arduino-Mega-2560-class board:
 ATmega2560 @ 16 MHz, USB-Serial via ATmega16U2, full pin breakout,
 LDO power section, and Mega-shield-compatible header layout.  Ships
 schematic, board file, full Gerber output, drill files, and pick-and-

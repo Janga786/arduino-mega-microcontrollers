@@ -1,6 +1,6 @@
 # Skyboard — Custom Arduino-Mega-Class PCB
 
-A 4-layer Arduino-Mega-2560-class development board, designed from
+A 2-layer Arduino-Mega-2560-class development board, designed from
 scratch in **Eagle CAD** and exported as production-ready Gerbers.
 The schematic mirrors the Arduino Mega 2560 reference design (ATmega2560
 @ 16 MHz, USB-Serial via ATmega16U2, full pin breakout) with personal
@@ -83,9 +83,9 @@ worth pointing at:
   warnings — see `docs/erc_clean.png`.  In practice that means no
   unconnected nets, no overlapping components, no power/ground
   shorts that would show up the moment you applied 5 V.
-- **A coherent ground pour.** The bottom layer (`copper_bottom.gbr`)
-  is a single uninterrupted ground plane; the top layer
-  (`copper_top.gbr`) carries signal traces and a partial 5 V pour.
+- **Copper pour on both layers.** Both copper layers
+  (`copper_top.gbr` and `copper_bottom.gbr`) carry signal traces and
+  copper-pour regions.
   See `docs/layout_with_copper.png` vs `layout_traces_only.png` to
   compare.
 - **Manufacturing-ready output.** Drill file is in metric Excellon
