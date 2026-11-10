@@ -2,7 +2,8 @@
 
 A 2-layer, 160 x 100 mm ATmega2560 board I designed in Eagle 9.6 as my
 CE 351 course project at Fort Lewis College. The Gerber job file names
-the project `Jangas_Course_Project`.
+the project `Jangas_Course_Project`. Many parts come from Arduino's
+`UNO-TH_Rev3e` and `MEGA2560_Rev3e` Eagle libraries.
 
 <p align="center">
 <img src="docs/schematic.png" alt="Schematic" width="46%"/>
@@ -44,7 +45,10 @@ custom-mega-pcb/
   The schematic also has a TB6612FNG motor driver and an ultrasonic-sensor
   header; the board file has a USB-B connector and an OPA344 op-amp; the
   Gerber pick-and-place adds the AMS1117 regulator.
-- `docs/layout.png` still shows a few unrouted connections (yellow airwires).
+- `schematic/skyboard.brd` has parts placed but no routed copper: 0 traces,
+  0 vias and 79 airwires on 28 nets. The routed copper exists only in
+  `docs/layout.png` (which still shows a few yellow airwires) and in the
+  Gerbers.
 - `layout_with_copper.png`, `layout_traces_only.png` and `erc_clean.png`
   show a different, earlier CE 351 board (an adjustable supply with an LED
   bar graph, built around an LT3080 and TLC274 op-amps). The ERC window in
