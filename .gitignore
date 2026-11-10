@@ -7,9 +7,10 @@ build/
 arduino_build_*/
 
 # ---- Eagle CAD backups -------------------------------------------------
-*.s#?       # schematic backups
-*.b#?       # board backups
-*.l#?       # library backups
+# schematic, board and library backups
+*.s#?
+*.b#?
+*.l#?
 *.bak
 *.lck
 
@@ -39,5 +40,4 @@ __pycache__/
 venv/
 
 # ---- Project-specific --------------------------------------------------
-.claude/
 *.log
