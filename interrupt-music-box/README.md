@@ -3,8 +3,8 @@
 Three CE 351 sketches that play notes on a speaker from timer interrupts on
 the ATmega2560. Commands come in over the serial monitor (9600 baud).
 `music_game.ino` and `music_game_advanced.ino` started from a lab template;
-their `// Your Code //` and "Inside here, you need to..." comments come from
-it.
+the "Inside here, you need to..." comments in both, and the `// Your Code //`
+markers in `music_game.ino`, come from it.
 
 A 12-second clip of the course board running one of these sketches is in
 [`docs/speaker_demo.mp4`](docs/speaker_demo.mp4). The clip has no audio track.
