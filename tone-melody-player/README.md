@@ -11,9 +11,7 @@ This is the simple busy-wait version. The
 with timer interrupts.
 
 A 12-second clip of the course board and speaker is in
-[`docs/morse_demo.mp4`](docs/morse_demo.mp4). The clip has no audio track,
-and its file name suggests it was recorded with a Morse-code variant that
-is not in this repo.
+[`docs/morse_demo.mp4`](docs/morse_demo.mp4) (no audio track).
 
 ## Files
 
