@@ -2,8 +2,9 @@
 
 Three CE 351 sketches that play notes on a speaker from timer interrupts on
 the ATmega2560. Commands come in over the serial monitor (9600 baud).
-`music_game.ino` started from a lab template; its `// Your Code //`
-comments mark the parts students completed.
+`music_game.ino` and `music_game_advanced.ino` started from a lab template;
+their `// Your Code //` and "Inside here, you need to..." comments come from
+it.
 
 A 12-second clip of the course board running one of these sketches is in
 [`docs/speaker_demo.mp4`](docs/speaker_demo.mp4). The clip has no audio track.
@@ -18,11 +19,14 @@ A 12-second clip of the course board running one of these sketches is in
 
 Despite its name, `music_game_advanced` is the simpler song-player version.
 
-## Known issue
+## Known issues
 
-Line 1 of `music_game.ino` is the bare text `The music game`, which is not a
-comment, so that sketch does not compile until the line is removed or
-commented out.
+- Line 1 of `music_game.ino` is the bare text `The music game`, which is
+  not a comment, so that sketch does not compile until the line is removed
+  or commented out.
+- `music_game_advanced.ino` does not compile either: the `else {` before
+  the rest-reload lines (around line 165) is missing, so the `}` on line 168
+  closes the `switch` early and the `break;` after it falls outside.
 
 ## Hardware
 
